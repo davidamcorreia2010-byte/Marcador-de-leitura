@@ -210,6 +210,12 @@
       user-select: none;
     }
 
+    .credit-line {
+      margin-top: 16px;
+      color: #d8d8ff;
+      font-size: 0.9rem;
+    }
+
     @media (max-width: 760px) {
       body {
         padding: 14px;
@@ -231,7 +237,7 @@
     <header>
       <h1>Marcador de Leitura</h1>
       <p>Site para escrever livros que queremos ler e marcar se ja foram lidos ou nao lidos.</p>
-      <span class="deadline">Prazo do projeto: pronto ate quinta-feira</span>
+      <p class="credit-line">Feito pela Maria 9º7</p>
     </header>
 
     <main>
